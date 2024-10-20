@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box; /* Pour inclure le padding et la bordure dans la largeur et la hauteur */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+}
+
+header {
+    background-color: #4CAF50; /* Couleur du header */
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Espacement vertical */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Taille de la police */
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em; /* Taille de la police pour le sous-titre */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Flex pour un alignement vertical */
+    align-items: center; /* Centrer les éléments */
+    margin: 20px; /* Marge autour du main */
+}
+
+#map {
+    height: 600px; /* Hauteur de la carte */
+    width: 100%;   /* Largeur de la carte */
+    border-radius: 8px; /* Coins arrondis pour la carte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+#zone-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #ffffff; /* Couleur de fond blanche */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    width: 90%; /* Largeur de la zone d'information */
+    max-width: 600px; /* Largeur maximale */
+    text-align: center; /* Centrer le texte */
+}
+
+footer {
+    background-color: #333; /* Couleur du footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Espacement vertical */
+    position: relative;
+    bottom: 0; /* Positionnement en bas */
+    width: 100%; /* Largeur complète */
+    margin-top: 20px; /* Espacement au-dessus du footer */
+}
+
